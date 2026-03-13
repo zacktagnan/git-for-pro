@@ -7,6 +7,10 @@
 </head>
 <body>
     <h1>Bienvenid@ a Git for Pro</h1>
-    <p>Aprende Git como un profesional ... :)</p>
+    <p>Aprendiendo a usar Git como un profesional ... :)</p>
+
+    <footer>
+        <p>&copy; {{ date('Y') }} ~ Git for Pro</p>
+    </footer>
 </body>
 </html>
