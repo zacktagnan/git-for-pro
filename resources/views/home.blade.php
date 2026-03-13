@@ -6,6 +6,11 @@
     <title>Git for Pro</title>
 </head>
 <body>
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/about">Acerca de</a>
+    </nav>
+
     <h1>Bienvenid@ a Git for Pro</h1>
     <p>Aprendiendo a usar Git como un profesional ... :)</p>
 
