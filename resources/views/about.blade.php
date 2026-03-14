@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Acerca de</h1>
-    <p>Este proyecto fue implementado con Laravel y Sail, entre otras cosas.</p>
+    <p>Este proyecto fue implementado con Laravel (v.12.54.1) y Sail, entre otras cosas.</p>
 </body>
 </html>
