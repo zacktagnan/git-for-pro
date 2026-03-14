@@ -6,16 +6,11 @@
     <title>Git for Pro</title>
 </head>
 <body>
-    <nav>
-        <a href="/">Inicio</a>
-        <a href="/about">Acerca de</a>
-    </nav>
+    @include('header.index')
 
     <h1>Bienvenid@ a Git for Pro</h1>
     <p>Aprendiendo a usar Git como un profesional ... :)</p>
 
-    <footer>
-        <p>&copy; {{ date('Y') }} ~ Git for Pro</p>
-    </footer>
+    @include('footer.index')
 </body>
 </html>

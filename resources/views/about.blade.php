@@ -6,7 +6,11 @@
     <title>Acerca de - Git for Pro</title>
 </head>
 <body>
+    @include('header.index')
+
     <h1>Acerca de</h1>
     <p>Este proyecto fue implementado con Laravel (v.12.54.1) y Sail, entre otras cosas.</p>
+
+    @include('footer.index')
 </body>
 </html>

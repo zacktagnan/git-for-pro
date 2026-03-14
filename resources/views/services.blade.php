@@ -6,6 +6,8 @@
     <title>Servicios - Git for Pro</title>
 </head>
 <body>
+    @include('header.index')
+
     <h1>Nuestros Servicios</h1>
 
     <ul>
@@ -13,5 +15,7 @@
         <li>Diseño de APIs</li>
         <li>Consultorio</li>
     </ul>
+
+    @include('footer.index')
 </body>
 </html>
