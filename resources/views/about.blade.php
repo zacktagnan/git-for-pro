@@ -11,6 +11,8 @@
     <h1>Acerca de</h1>
     <p>Este proyecto fue implementado con Laravel (v.12.54.1) y Sail, entre otras cosas.</p>
 
+    <p><small>Licencia MIT.</small></p>
+
     @include('footer.index')
 </body>
 </html>
