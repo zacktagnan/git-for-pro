@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios - Git for Pro</title>
-</head>
-<body>
-    @include('header.index')
+@php
+    $title = "Nuestros Servicios";
+@endphp
 
-    <h1>Nuestros Servicios</h1>
+<x-layouts.app :title="$title">
+    <h1 class="text-2xl font-bold">{{ $title }}</h1>
 
-    <ul>
+    <ul class="mt-4 list-inside list-disc">
         <li>Desarrollo Web</li>
         <li>Diseño de APIs</li>
         <li>Consultorio</li>
     </ul>
-
-    @include('footer.index')
-</body>
-</html>
+</x-layouts.app>

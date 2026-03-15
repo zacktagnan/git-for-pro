@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Git for Pro</title>
-</head>
-<body>
-    @include('header.index')
+@php
+    $title = "Contacto";
+@endphp
 
-    <h1>Contacto</h1>
-    <p>Enviar consultas a <a href="mailto:aloha@gitforpro.es" title="Enviar email">aloha@gitforpro.es</a></p>
+<x-layouts.app :title="$title">
+    <h1 class="text-2xl font-bold">{{ $title }}</h1>
 
-    @include('footer.index')
-</body>
-</html>
+    <p class="mt-4">Enviar consultas a <a href="mailto:aloha@gitforpro.es" class="text-blue-500 hover:underline" title="Enviar email">aloha@gitforpro.es</a> siempre que sea necesario.</p>
+</x-layouts.app>
