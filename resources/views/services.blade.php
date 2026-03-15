@@ -10,4 +10,6 @@
         <li>Diseño de APIs</li>
         <li>Consultorio</li>
     </ul>
+
+    <p class="mt-4">Contacte con nosotros para soluciones personalizadas.</p>
 </x-layouts.app>
