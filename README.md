@@ -1,4 +1,4 @@
-# Git for Pro
+# Git-for-Pro
 
 Aprendiendo a utilizar Git y GitHub de forma más profesional dentro de un proyecto Laravel.
 
