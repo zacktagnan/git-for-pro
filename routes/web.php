@@ -17,3 +17,9 @@ Route::get("/about", function () {
 Route::get("/contact", function () {
     return view("contact");
 });
+
+// = private documentation... =================================
+Route::get("/docs", function () {
+    return view("docs.index");
+});
+// = private documentation... =================================
