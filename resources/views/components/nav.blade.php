@@ -2,5 +2,6 @@
         <a href="/" title="Ir a `Inicio`">Inicio</a>
         <a href="/services" title="Ir a `Servicios`">Servicios</a>
         <a href="/about" title="Ir a `Sobre Nosotros`" class="pl-5">Sobre Nosotros</a>
+        <a href="/faq" title="Ir a `FAQ`">FAQ</a>
         <a href="/contact" title="Ir a `Contacto`">Contacto</a>
     </nav>

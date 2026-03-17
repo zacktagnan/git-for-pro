@@ -18,4 +18,6 @@ Route::view("/services", "services");
 
 Route::view("/about", "about");
 
+Route::view("/faq", "faq");
+
 Route::view("/contact", "contact");
